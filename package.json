@@ -1,6 +1,6 @@
 {
   "name": "generate-random-color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Randomly generate a color",
   "repository": "hougesen/generate-random-color",
   "license": "MIT",
