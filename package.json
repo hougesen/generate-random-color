@@ -1,6 +1,6 @@
 {
   "name": "generate-random-color",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Randomly generate a color",
   "repository": "hougesen/generate-random-color",
   "license": "MIT",
@@ -8,6 +8,7 @@
     "Mads Hougesen <mads@mhouge.dk> (https://mhouge.dk)"
   ],
   "main": "dist/cjs/index.js",
+  "type": "module",
   "module": "dist/esm/index.esm.js",
   "types": "dist/cjs/index.d.ts",
   "files": [
