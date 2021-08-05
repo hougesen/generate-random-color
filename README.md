@@ -1,6 +1,6 @@
 # generate-random-color
 
-Randomly generate a color
+NPM package for generating random RGB, RGBA, HSL and HSLA colors.
 
 ## Install
 
@@ -26,7 +26,10 @@ generateRandomColor.rgb({
 });
 
 // Omitted values will default to the min & max value of the color type.
-generateRandomColor.rgb({ g: { min: 100 }, b: { min: 0, max: 100 } });
+generateRandomColor.rgb({
+  g: { min: 100 },
+  b: { min: 0, max: 100 },
+});
 
 // RGBA
 generateRandomColor.rgba({
@@ -39,16 +42,15 @@ generateRandomColor.rgba({
 // HSL
 generateRandomColor.hsl({
   h: { min: 0, max: 360 },
-  g: { min: 0, max: 100 },
-  b: { min: 0, max: 100 },
-  a: { min: 0, max: 1 },
+  s: { min: 0, max: 100 },
+  l: { min: 0, max: 100 },
 });
 
 // HSLA
 generateRandomColor.hsla({
   h: { min: 0, max: 360 },
-  g: { min: 0, max: 100 },
-  b: { min: 0, max: 100 },
+  s: { min: 0, max: 100 },
+  l: { min: 0, max: 100 },
   a: { min: 0, max: 1 },
 });
 ```

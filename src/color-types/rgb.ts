@@ -7,8 +7,5 @@ type RGB = {
 };
 
 export default function (input?: RGB): string {
-  return `rgb(${generateNum(256, input?.r)}, ${generateNum(
-    256,
-    input?.g,
-  )}, ${generateNum(256, input?.b)})`;
+  return `rgb(${generateNum(256, input?.r)}, ${generateNum(256, input?.g)}, ${generateNum(256, input?.b)})`;
 }

@@ -1,7 +1,7 @@
 {
   "name": "generate-random-color",
   "version": "1.0.4",
-  "description": "Randomly generate a color",
+  "description": "NPM package for generating random RGB, RGBA, HSL and HSLA colors. ",
   "repository": "hougesen/generate-random-color",
   "license": "MIT",
   "contributors": [
@@ -11,6 +11,16 @@
   "types": "lib/index.d.ts",
   "files": [
     "lib"
+  ],
+  "keywords": [
+    "random color",
+    "color",
+    "background color",
+    "foreground color",
+    "rgb",
+    "hsl",
+    "random",
+    "generate"
   ],
   "scripts": {
     "start": "ts-node src/index.ts",

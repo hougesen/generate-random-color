@@ -9,8 +9,8 @@ type RGBA = {
 };
 
 export default function (input?: RGBA): string {
-  return `rgba(${generateNum(256, input?.r)}, ${generateNum(
+  return `rgba(${generateNum(256, input?.r)}, ${generateNum(256, input?.g)}, ${generateNum(
     256,
-    input?.g,
-  )}, ${generateNum(256, input?.b)}, ${generateFloat(1, input?.a)})`;
+    input?.b,
+  )}, ${generateFloat(1, input?.a)})`;
 }
