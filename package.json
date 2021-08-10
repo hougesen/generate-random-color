@@ -1,6 +1,6 @@
 {
   "name": "generate-random-color",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "NPM package for generating random RGB, RGBA, HSL and HSLA colors. ",
   "repository": "hougesen/generate-random-color",
   "license": "MIT",
