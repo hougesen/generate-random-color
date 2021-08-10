@@ -1,5 +1,5 @@
 import { hsla } from '../index';
 
-test('Typeof HSLA', () => {
+test('HSLA: Typeof', () => {
   expect(typeof hsla()).toBe('string');
 });

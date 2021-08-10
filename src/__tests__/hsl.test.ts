@@ -1,5 +1,5 @@
 import { hsl } from '../index';
 
-test('Typeof HSL', () => {
+test('HSL: Typeof', () => {
   expect(typeof hsl()).toBe('string');
 });

@@ -1,5 +1,5 @@
 import { rgba } from '../index';
 
-test('Typeof rgba', () => {
+test('RGBA: Typeof', () => {
   expect(typeof rgba()).toBe('string');
 });

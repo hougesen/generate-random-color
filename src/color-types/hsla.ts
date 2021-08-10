@@ -11,6 +11,6 @@ type HSLA = {
 export default function (input?: HSLA): string {
   return `hsla(${generateNum(361, input?.h)}, ${generateNum(101, input?.s)}%, ${generateNum(
     101,
-    input?.h,
+    input?.l,
   )}%, ${generateFloat(1, input?.a)})`;
 }

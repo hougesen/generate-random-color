@@ -7,5 +7,5 @@ type HSL = {
 };
 
 export default function (input?: HSL): string {
-  return `hsl(${generateNum(361, input?.h)}, ${generateNum(101, input?.s)}%, ${generateNum(101, input?.h)}%)`;
+  return `hsl(${generateNum(361, input?.h)}, ${generateNum(101, input?.s)}%, ${generateNum(101, input?.l)}%)`;
 }

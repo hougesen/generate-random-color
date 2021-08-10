@@ -1,5 +1,5 @@
 import { rgb } from '../index';
 
-test('Typeof rgb', () => {
+test('RGB: Typeof', () => {
   expect(typeof rgb()).toBe('string');
 });

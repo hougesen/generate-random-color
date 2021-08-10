@@ -2,6 +2,7 @@ import genHSL from './color-types/hsl';
 import genHSLA from './color-types/hsla';
 import genRGB from './color-types/rgb';
 import genRGBA from './color-types/rgba';
+import genHEX from './color-types/hex';
 
 type HSL = {
   h?: { min?: number; max?: number };
@@ -26,6 +27,12 @@ type RGBA = {
   g?: { min?: number; max?: number };
   b?: { min?: number; max?: number };
   a?: { min?: number; max?: number };
+};
+
+type HEX = {
+  r?: string;
+  g?: string;
+  b?: string;
 };
 
 export const hsl = (input?: HSL): string => {
@@ -110,4 +117,12 @@ export const rgba = (input?: RGBA): string => {
   };
 
   return genRGBA(base);
+};
+
+export const hex = (input?: HEX): string => {
+  if (input) {
+    return genHEX(input);
+  } else {
+    return genHEX();
+  }
 };
